@@ -1,0 +1,4 @@
+- Tên sản phẩm: StudyMate Notebook
+- Khách hàng: Sinh viên đại học
+- Công dụng: Ghi chú bài học và lập kế hoạch hàng tuần
+- Giá: 80.000 VND

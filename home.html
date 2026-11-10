@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chào mừng đến với trang web của DDVi</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 32px 20px; background: #f0f4f8; color: #24334b; font-family: "Segoe UI", Arial, sans-serif; line-height: 1.6; }
+    main { width: 100%; max-width: 980px; padding: 64px 48px; background: #fff; border: 1px solid #e0e7ef; border-radius: 28px; box-shadow: 0 20px 60px #24334b0a; text-align: center; }
+    h1 { max-width: 750px; margin: 0 auto; font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.2; letter-spacing: -.035em; }
+    p { margin: 24px 0 36px; color: #53647b; font-size: 1.15rem; }
+    nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    a { display: flex; align-items: center; justify-content: center; min-height: 120px; padding: 24px 16px; border: 1px solid #d6e1ee; border-radius: 18px; color: #234774; background: #edf4ff; text-decoration: none; font-size: 1.2rem; font-weight: 700; transition: background .15s, transform .15s; }
+    a:nth-child(2) { background: #f2edff; color: #553b89; border-color: #e2d8f5; }
+    a:nth-child(3) { background: #eaf5ee; color: #2e6043; border-color: #d2e6d9; }
+    a:hover { background: #dce9fa; transform: translateY(-3px); }
+    a:nth-child(2):hover { background: #e6dcfb; }
+    a:nth-child(3):hover { background: #d9eddf; }
+    a:focus-visible { outline: 3px solid #345d9d; outline-offset: 5px; }
+    @media (max-width: 680px) { main { padding: 40px 24px; } nav { grid-template-columns: 1fr; } a { min-height: 84px; } }
+    @media (prefers-reduced-motion: reduce) { a { transition: none; } a:hover { transform: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Chào mừng đến với trang web của DDVi</h1>
+    <p>Hãy chọn một trang để khám phá.</p>
+    <nav aria-label="Các trang khám phá">
+      <a href="index.html">Giới thiệu về tôi</a>
+      <a href="event.html">Sự kiện</a>
+      <a href="product.html">Sản phẩm</a>
+    </nav>
+  </main>
+</body>
+</html>
